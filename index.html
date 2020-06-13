@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type-"text/css" href="style.css">
+</head>
+
+<head>
+  <title>Home Page</title>
+  <link rel="stylesheet" type="text/css" href="tomas.css">
+</head>
+
+  <body>
+
+
+    <div class="navbar">
+      <h2>Humanities - Victoria Cross Recipient</h2>
+      <a href="javascript:void();" class="thislinkisactive" onclick="goToSection1()" id="section1link">Home</a>
+      <a href="javascript:void();" onclick="goToSection2()" id="section2link">Involment in the War</a>
+      <a href="javascript:void();" onclick="goToSection3()" id="section3link">Events leading to the award</a>
+      <a href="javascript:void();" onclick="goToSection4()" id="section4link">Pictures</a>
+      <a href="javascript:void();" onclick="goToSection5()" id="section5link">About</a>
+    </div>
+  </div>
+  <div id="section1">
+    <body>
+      <div class="textbox">
+        <img src="HaroldAckroyd.jpg">
+        <h1>Harold Ackroyd</h1>
+        <p>Harold Ackroyd was born on 18th July 1877 and he died on the 11th of August 1917 and he was an English Recipient of the Victoria Cross. Harold was a physicist, scientific researcher and army officer. He had joined World War 1 in 1915.</p>
+        <a href="javascript:void();" onclick="goToSection5()" class="button">About</a>
+      </body>
+      </div>
+    </div>
+
+    <div id="section2">
+      <div class="textbox">
+      <h1>Involment in the war</h1>
+      <p>In the Royal Army Medical Corp of the British Army, Harold Ackroyd was a temporary captain.<br> He was 40 years old when he was awarded the Victoria Cross. Even though Harold Ackroyd was deeply engaged with his scientific research at Cambridge, <br> he still joined the great war in they year of 1915. Soon after joining the British Army, he had become a temporary lieutenant in the Royal Army Medical Corp. Not only that, but Harold Ackroyd was also attached the role as the medical officer for the 6th Battalion of the Royal Berkshire Regiment. After Harold’s first year of service in the war for the British Army, there were around 1,200 casualties meaning Harold was promoted to a temporary captain so that they could attend all the wounded.</p>
+    </div>
+    </div>
+
+    <div id="section3">
+      <div class="textbox">
+      <h1>Events that led to the award</h1>
+      <p>In the Royal Army Medical Corp of the British Army, Harold Ackroyd was a temporary captain. He was 40 years old when he was awarded the Victoria Cross. Even though Harold Ackroyd was deeply engaged with his scientific research at Cambridge, he still joined the great war in they year of 1915. Soon after joining the British Army, he had become a temporary lieutenant in the Royal Army Medical Corp. Not only that, but Harold Ackroyd was also attached the role as the medical officer for the 6th Battalion of the Royal Berkshire Regiment. After Harold’s first year of service in the war for the British Army, there were around 1,200 casualties meaning Harold was promoted to a temporary captain so that they could attend all the wounded. </p>
+    </div>
+    </div>
+
+    <div id="section4">
+      <div class="textbox">
+      <h1>Pictures</h1>
+      <img src="HaroldAckroyd.jpg">
+      <p>Harold Ackroyd</p>
+      <br>
+      <img src="medals.jpg">
+      <p>Harold Ackroyd's medals</p>
+      <br>
+      <img src="cemetery.jpg">
+      <p>Where Harold Ackroyd was burried</p>
+    </div>
+    </div>
+
+    <div id="section5">
+      <div class="textbox">
+      <h1>About</h1>
+      <p>This website was created for my humanities task. It was created using HTML, CSS and JS.</p>
+
+      </div>
+    </div>
+
+
+<script>
+      function goToSection1() {
+        section1.style.display = 'block';
+        section2.style.display = 'none';
+        section3.style.display = 'none';
+        section4.style.display = 'none';
+        section5.style.display = 'none';
+
+        section1link.classList.add('thislinkisactive')
+        section2link.classList.remove('thislinkisactive')
+        section3link.classList.remove('thislinkisactive')
+        sectuon4link.classList.remove('thislinkisactive')
+        section5link.classList.remove('thislinkisactive')
+      }
+
+      function goToSection2() {
+        section1.style.display = 'none';
+        section2.style.display = 'block';
+        section3.style.display = 'none';
+        section4.style.display = 'none';
+        section5.style.display = 'none';
+
+        section1link.classList.remove('thislinkisactive')
+        section2link.classList.add('thislinkisactive')
+        section3link.classList.remove('thislinkisactive')
+        sectuon4link.classList.remove('thislinkisactive')
+        section5link.classList.remove('thislinkisactive')
+      }
+
+      function goToSection3() {
+        section1.style.display = 'none';
+        section2.style.display = 'none';
+        section3.style.display = 'block';
+        section4.style.display = 'none';
+        section5.style.display = 'none';
+
+        section1link.classList.remove('thislinkisactive')
+        section2link.classList.remove('thislinkisactive')
+        section3link.classList.add('thislinkisactive')
+        sectuon4link.classList.remove('thislinkisactive')
+        section5link.classList.remove('thislinkisactive')
+      }
+
+      function goToSection4() {
+        section1.style.display = 'none';
+        section2.style.display = 'none';
+        section3.style.display = 'none';
+        section4.style.display = 'block';
+        section5.style.display = 'none';
+
+        section1link.classList.remove('thislinkisactive')
+        section2link.classList.remove('thislinkisactive')
+        section3link.classList.remove('thislinkisactive')
+        sectuon4link.classList.add('thislinkisactive')
+        section5link.classList.remove('thislinkisactive')
+      }
+
+      function goToSection5() {
+        section1.style.display = 'none';
+        section2.style.display = 'none';
+        section3.style.display = 'none';
+        section4.style.display = 'none';
+        section5.style.display = 'block';
+
+        section1link.classList.remove('thislinkisactive')
+        section2link.classList.remove('thislinkisactive')
+        section3link.classList.remove('thislinkisactive')
+        sectuon4link.classList.remove('thislinkisactive')
+        section5link.classList.add('thislinkisactive')
+      }
+
+
+</script>
+
+</html>
